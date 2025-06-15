@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karen Koraima López Ortiz - CV</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Particles Background -->
+    <div id="particles-container"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-glass">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="gradient-text">KL</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#hero" class="nav-link">Inicio</a></li>
+          <li><a href="#about" class="nav-link">Sobre mí</a></li>
+          <li><a href="#education" class="nav-link">Educación</a></li>
+          <li><a href="#courses" class="nav-link">Cursos</a></li>
+          <li><a href="#experience" class="nav-link">Experiencia</a></li>
+          <li><a href="#contact" class="nav-link">Contacto</a></li>
+        </ul>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="profile-photo-container">
+            <div class="photo-glow"></div>
+            <img
+              src="https://i.imgur.com/imnOSWc.jpeg"
+              alt="Karen López"
+              class="profile-photo"
+              loading="lazy"
+            />
+            <div class="photo-ring"></div>
+          </div>
+          <h1 class="hero-title">
+            <span class="gradient-text">Karen Koraima</span>
+            <span class="gradient-text-secondary">López Ortiz</span>
+          </h1>
+          <p class="hero-subtitle">
+            Estudiante de Ingeniería en Ciencias de la Computación
+          </p>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-target="5">0</span>
+              <span class="stat-label">Semestre Actual</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="8">0</span>
+              <span class="stat-label">Cursos Completados</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="6">1</span>
+              <span class="stat-label">Meses Experiencia</span>
+            </div>
+          </div>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn-secondary">
+              <svg
+                class="btn-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <path
+                  d="M22 4s-.7 2.1-2 3.4c-1.3 1.3-3.4 2-3.4 2s-.8-2.1-2.1-3.4c-1.3-1.3-3.4-2.1-3.4-2.1s.7-2.1 2-3.4C14.4 1.3 16.6.6 16.6.6s.8 2.1 2.1 3.4C20 5.3 22 4 22 4z"
+                ></path>
+                <path d="M9 12l2 2 4-4"></path>
+              </svg>
+              Contactar
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg
+              class="section-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            Sobre mí
+          </h2>
+          <p class="section-subtitle">
+            Información personal y datos de contacto
+          </p>
+        </div>
+        <div class="about-grid">
+          <div class="glass-card">
+            <h3 class="card-title">Datos Personales</h3>
+            <div class="info-list">
+              <div class="info-item">
+                <span class="info-label">Nombre Completo:</span>
+                <span class="info-value">Karen Koraima López Ortiz</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Fecha de Nacimiento:</span>
+                <span class="info-value">01 de Julio, 2005</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Edad:</span>
+                <span class="info-value">19 años</span>
+              </div>
+            </div>
+          </div>
+          <div class="glass-card">
+            <h3 class="card-title">Información de Contacto</h3>
+            <div class="contact-list">
+              <div class="contact-item">
+                <svg
+                  class="contact-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  ></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>karen.lopez@email.com</span>
+              </div>
+              <div class="contact-item">
+                <svg
+                  class="contact-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  ></path>
+                </svg>
+                <span>+593 99 123 4567</span>
+              </div>
+              <div class="contact-item">
+                <svg
+                  class="contact-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                  ></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Guayaquil, Ecuador</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg
+              class="section-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+            Educación
+          </h2>
+          <p class="section-subtitle">Mi trayectoria académica</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-badge current">Actual</div>
+              <h3 class="timeline-title">Educación Superior</h3>
+              <h4 class="timeline-subtitle">
+                Ingeniería en Ciencias de la Computación
+              </h4>
+              <p class="timeline-institution">
+                Universidad Politécnica Salesiana
+              </p>
+              <p class="timeline-period">2023 - Presente</p>
+              <p class="timeline-description">
+                Actualmente cursando el 5to semestre de la carrera
+              </p>
+              <div class="progress-bar">
+                <div class="progress-fill" data-progress="62.5"></div>
+                <span class="progress-text">62.5% Completado</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-badge completed">Completado</div>
+              <h3 class="timeline-title">Educación Secundaria</h3>
+              <h4 class="timeline-subtitle">
+                Bachiller Técnico en Informática
+              </h4>
+              <p class="timeline-institution">
+                Academia Naval Almirante Illingworth
+              </p>
+              <p class="timeline-period">2018 - 2023</p>
+              <div class="progress-bar">
+                <div class="progress-fill" data-progress="100"></div>
+                <span class="progress-text">100% Completado</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-badge completed">Completado</div>
+              <h3 class="timeline-title">Educación Primaria</h3>
+              <p class="timeline-institution">
+                Escuela Particular Cantón Chilla
+              </p>
+              <p class="timeline-period">2010 - 2017</p>
+              <div class="progress-bar">
+                <div class="progress-fill" data-progress="100"></div>
+                <span class="progress-text">100% Completado</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg
+              class="section-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+            Cursos y Certificaciones
+          </h2>
+          <p class="section-subtitle">
+            Formación complementaria y especializada
+          </p>
+        </div>
+        <div class="courses-grid">
+          <div class="course-card glass-card">
+            <div class="course-header">
+              <div class="course-icon microsoft">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M11.4 24H0V12.6h11.4V24zM24 24H12.6V12.6H24V24zM11.4 11.4H0V0h11.4v11.4zm12.6 0H12.6V0H24v11.4z"
+                  />
+                </svg>
+              </div>
+              <h3 class="course-title">Microsoft Office Specialist</h3>
+            </div>
+            <div class="course-content">
+              <p class="course-institution">
+                Academia Naval Almirante Illingworth
+              </p>
+              <div class="course-skills">
+                <span class="skill-tag">PowerPoint Associate</span>
+                <span class="skill-tag">Word Associate</span>
+                <span class="skill-tag">Excel Associate</span>
+              </div>
+              <p class="course-duration">Duración: 2 meses por certificación</p>
+            </div>
+          </div>
+
+          <div class="course-card glass-card">
+            <div class="course-header">
+              <div class="course-icon cisco">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12z"
+                  />
+                </svg>
+              </div>
+              <h3 class="course-title">IT Essentials</h3>
+            </div>
+            <div class="course-content">
+              <p class="course-institution">Cisco Networking Academy - AITEC</p>
+              <div class="course-skills">
+                <span class="skill-tag">Hardware PC</span>
+                <span class="skill-tag">Software PC</span>
+              </div>
+              <p class="course-duration">Duración: 2 meses</p>
+            </div>
+          </div>
+
+          <div class="course-card glass-card">
+            <div class="course-header">
+              <div class="course-icon security">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"
+                  />
+                </svg>
+              </div>
+              <h3 class="course-title">Sistemas de Seguridad Electrónica</h3>
+            </div>
+            <div class="course-content">
+              <p class="course-institution">AITEC</p>
+              <div class="course-skills">
+                <span class="skill-tag">Instalación de Cámaras</span>
+                <span class="skill-tag">Seguridad</span>
+              </div>
+              <p class="course-duration">Duración: 40 horas</p>
+            </div>
+          </div>
+
+          <div class="course-card glass-card">
+            <div class="course-header">
+              <div class="course-icon linux">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.134.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .396.062.584.198.19.135.33.332.438.533.105.259.158.459.166.724 0-.02.006-.04.006-.06v.105a.086.086 0 01-.004-.021l-.004-.024a1.807 1.807 0 01-.15.706.953.953 0 01-.213.335.71.71 0 01-.088.066c-.297.168-.623.336-.985.328-.27-.005-.52-.165-.705-.405a1.528 1.528 0 01-.088-.667c.014-.245.027-.454.138-.664.138-.26.322-.465.556-.606.115-.07.273-.134.335-.134z"
+                  />
+                </svg>
+              </div>
+              <h3 class="course-title">NDG Linux Essentials</h3>
+            </div>
+            <div class="course-content">
+              <p class="course-institution">Cisco Networking Academy - UPS</p>
+              <div class="course-skills">
+                <span class="skill-tag">Linux</span>
+                <span class="skill-tag">Sistemas Operativos</span>
+              </div>
+              <p class="course-duration">Duración: 6 meses</p>
+            </div>
+          </div>
+
+          <div class="course-card glass-card">
+            <div class="course-header">
+              <div class="course-icon beauty">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                  />
+                </svg>
+              </div>
+              <h3 class="course-title">Cosmetología y Automaquillaje</h3>
+            </div>
+            <div class="course-content">
+              <p class="course-institution">AITEC</p>
+              <div class="course-skills">
+                <span class="skill-tag">Cosmetología</span>
+                <span class="skill-tag">Maquillaje</span>
+              </div>
+              <p class="course-duration">Duración: 30 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Referencias Section -->
+    <section id="referencias" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg
+              class="section-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+            Referencias Personales
+          </h2>
+          <p class="section-subtitle">
+            Profesionales que pueden dar fe de mis habilidades
+          </p>
+        </div>
+        <div class="courses-grid">
+          <div class="course-card glass-card">
+            <div class="course-header">
+              <div class="course-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <h3 class="course-title">Ing. Carla Solis</h3>
+            </div>
+            <div class="course-content">
+              <p class="course-institution">
+                Analista de ventas – Colplast S.A
+              </p>
+              <div class="course-skills">
+                <a href="https://wa.me/593960431053" class="skill-tag"
+                  >Teléfono: 0960431053</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="course-card glass-card">
+            <div class="course-header">
+              <div class="course-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <h3 class="course-title">Tnlg. Elizabeth Luna</h3>
+            </div>
+            <div class="course-content">
+              <p class="course-institution">
+                Ingeniera en telemetría – Empresa Eléctrica CNEL
+              </p>
+              <div class="course-skills">
+                <a href="https://wa.me/593992846561" class="skill-tag"
+                  >Teléfono: 0992846561</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="course-card glass-card">
+            <div class="course-header">
+              <div class="course-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <h3 class="course-title">Enf. Carmen Mendoza</h3>
+            </div>
+            <div class="course-content">
+              <p class="course-institution">Servicios prestados en clínica</p>
+              <div class="course-skills">
+                <a href="https://wa.me/593969998994" class="skill-tag"
+                  >Teléfono: 0969998994</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <svg
+              class="section-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              ></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            Contacto
+          </h2>
+          <p class="section-subtitle">¡Conectemos y trabajemos juntos!</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card glass-card">
+            <h3 class="contact-card-title">¿Tienes un proyecto en mente?</h3>
+            <p class="contact-card-description">
+              Estoy siempre abierta a nuevas oportunidades y colaboraciones
+              profesionales. No dudes en contactarme para discutir cómo puedo
+              contribuir a tu equipo o proyecto.
+            </p>
+            <div class="contact-buttons">
+              <a href="mailto:karen.lopez@email.com" class="btn-primary">
+                <svg
+                  class="btn-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  ></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                Enviar Email
+              </a>
+              <a href="https://wa.me/593963832137" class="btn-secondary">
+                <svg
+                  class="btn-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  ></path>
+                </svg>
+                WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="footer-text">
+            © 2024 Karen Koraima López Ortiz. Diseñado con
+            <span class="gradient-text">❤️</span>
+          </p>
+          <div class="footer-links">
+            <a href="#hero" class="footer-link">Volver al inicio</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
